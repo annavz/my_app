@@ -1,0 +1,21 @@
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 15px;
+}
+
+li {
+list-style-type: none;
+}
+
+li:before {
+content:"✪";
+}

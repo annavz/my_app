@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href ="../static/style.css">
+</head>
+<body>
+<div class="row">
+<a class="linker" href="/statistics">Перейти к статистике</a>
+</div>
+<h1>Лингвистический опрос: как Вы назовете эти предметы?</h1>
+<form action="/results" method = 'GET'>
+<fieldset>
+<legend><b>Анкета</b></legend>
+  <li> Отметьте Ваш гендер:<br>
+  <input type="radio" name="gender" value="мужской"> Мужской<br>
+  <input type="radio" name="gender" value="женский"> Женский<br>
+  <input type="radio" name="gender" value="другое"> Другое </li>
+  <br>
+  
+  <li> Введите Ваш возраст (в цифрах):<br>
+  <input type="text" name="age"> </li>
+  <br>
+ </fieldset>
+ <fieldset>
+ <legend><b>Вопросы</b></legend>
+  <li> Укажите, как бы вы назвали предмет на картинке? Если ни один из вариантов не подходит, перейдите к следующему вопросу<br>
+  <img src="../static/1.jpg" width="210" height="230"><br>
+  <input type="checkbox" name="q1_1" value="жилет"> жилет<br>
+  <input type="checkbox" name="q1_2" value="жилетка"> жилетка<br>
+  <input type="checkbox" name="q1_3" value="безрукавка"> безрукавка<br> </li>
+  <br>
+  <li> Другие слова, которыми можно назвать этот предмет, через запятую (если есть): <br>
+  <input type="text" name="q1"> </li>
+  <br>
+  
+  <li> Укажите, как бы вы назвали предмет на картинке? Если ни один из вариантов не подходит, перейдите к следующему вопросу<br>
+  <img src="../static/2.jpg" width="210" height="230"><br>
+  <input type="checkbox" name="q2_1" value="жилет"> жилет<br>
+  <input type="checkbox" name="q2_2" value="жилетка"> жилетка<br>
+  <input type="checkbox" name="q2_3" value="безрукавка"> безрукавка<br> </li>
+  <br>
+  <li> Другие слова, которыми можно назвать этот предмет, через запятую (если есть): <br>
+  <input type="text" name="q2"> </li>
+  <br>
+  
+  <li> Укажите, как бы вы назвали предмет на картинке? Если ни один из вариантов не подходит, перейдите к следующему вопросу<br>
+  <img src="../static/3.jpg" width="210" height="270"><br>
+  <input type="checkbox" name="q3_1" value="жилет"> жилет<br>
+  <input type="checkbox" name="q3_2" value="жилетка"> жилетка<br>
+  <input type="checkbox" name="q3_3" value="безрукавка"> безрукавка<br> </li>
+  <br>
+  <li> Другие слова, которыми можно назвать этот предмет, через запятую (если есть): <br>
+  <input type="text" name="q3"> </li>
+  <br>
+  
+  <li> Укажите, как бы вы назвали предмет на картинке? Если ни один из вариантов не подходит, перейдите к следующему вопросу<br>
+  <img src="../static/4.jpg" width="210" height="230"><br>
+  <input type="checkbox" name="q4_1" value="жилет"> жилет<br>
+  <input type="checkbox" name="q4_2" value="жилетка"> жилетка<br>
+  <input type="checkbox" name="q4_3" value="безрукавка"> безрукавка<br> </li>
+  <br>
+  <li> Другие слова, которыми можно назвать этот предмет, через запятую (если есть): <br>
+  <input type="text" name="q4"> </li>
+  <br>
+  
+  <li> Укажите, как бы вы назвали предмет на картинке? Если ни один из вариантов не подходит, перейдите к следующему вопросу<br>
+  <img src="../static/5.jpg" width="210" height="250"><br>
+  <input type="checkbox" name="q5_1" value="жилет"> жилет<br>
+  <input type="checkbox" name="q5_2" value="жилетка"> жилетка<br>
+  <input type="checkbox" name="q5_3" value="безрукавка"> безрукавка<br> </li>
+  <br>
+  <li> Другие слова, которыми можно назвать этот предмет, через запятую (если есть): <br>
+  <input type="text" name="q5"> </li>
+  <br>
+  <input type="submit" value="Отправить">
+ </fieldset>
+</form>
+
+</body>
+</html>
